@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie App</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav" id="nav">
+        <ul>
+          <li class="nav-items">
+            <a href="homepage.html"><i class="fas fa-home"></i></a>
+          </li>
+          <li class="nav-items">
+            <a href="index.html">Most Popular</a>
+          </li>
+          <li class="nav-items"><a href="action.html">Action</a></li>
+          <li class="nav-items"><a href="adventure.html">Adventure</a></li>
+          <li class="nav-items"><a href="comedy.html">Comedy</a></li>
+          <li class="nav-items active">
+            <a href="leastpopular.html">Least Popular</a>
+          </li>
+        </ul>
+      </nav>
+      <form id="form">
+        <input type="text" id="search" class="search" placeholder="Search" />
+      </form>
+    </header>
+    <main id="main"></main>
+    <script src="leastpopular.js"></script>
+  </body>
+</html>
